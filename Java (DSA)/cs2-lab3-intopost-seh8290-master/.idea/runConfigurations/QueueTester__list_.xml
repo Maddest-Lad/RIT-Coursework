@@ -1,0 +1,17 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="QueueTester (list)" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="rit.stu.QueueTester" />
+    <module name="InToPost" />
+    <option name="PROGRAM_PARAMETERS" value="list" />
+    <option name="VM_PARAMETERS" value="-ea" />
+    <extension name="coverage">
+      <pattern>
+        <option name="PATTERN" value="rit.stu.*" />
+        <option name="ENABLED" value="true" />
+      </pattern>
+    </extension>
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

@@ -1,0 +1,26 @@
+1. What is the purpose of the pivot? Do you really need to choose the middle items at the pivot? Would the algorithm have behaved differently if you had selected the first item as the pivot each time?
+
+The pivot is not crucial to the success of quick select generally speaking, a pivot near the middle will be better for somewhat ordered lists, however chosing a pivot randomly shouldn't sigificantly impact perfomrance. Selecting the first item as the pivot would work probably be a little faster becuase you don't need to do math / rounding to find the middle.
+
+2. Quickselect is versatile because it can find the kth smallest number. What testcases are needed to fully exercise quickselect? List several cases that exercise allaspects of the quickselect function. Remember:a test case identifies specific inputvalues and expected outputs.
+
+I'd want to test a list where items in the list are the same value which should return the median as the value. I'd also want to test a List of [0...n] and then test it with values of k from 0...n and check for equality.
+
+3. What is the elapsed time performance of your sorting program when it processes a large data set? What is the elapsed time performance of your median program when it processes the same large data set? Enter the elapsed times of several runs of each program in your report.
+
+Data/test_dataset1M.txt:
+
+	Quick Select:
+		0.34546548999787774 seconds
+		0.33340772200608626 seconds
+		0.3144143109966535 seconds
+		0.3387505390055594 seconds
+		0.2557282990019303 seconds
+
+	Store Location (Quick Sort Version):
+		2.9786510530029773 seconds
+		2.543294420996972 seconds
+		2.573144175003108 seconds
+		2.753383406001376 seconds
+		2.340362461996847 seconds
+

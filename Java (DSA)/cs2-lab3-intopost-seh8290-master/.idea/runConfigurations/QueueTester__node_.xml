@@ -1,0 +1,11 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="QueueTester (node)" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="rit.stu.QueueTester" />
+    <module name="InToPost" />
+    <option name="PROGRAM_PARAMETERS" value="node" />
+    <option name="VM_PARAMETERS" value="-ea" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

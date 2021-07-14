@@ -1,0 +1,32 @@
+# Standard 8x8 starter board, just one player
+8 8
+
+# Back row
+rq 7 0
+nq 7 1
+bq 7 2
+qq 7 3
+kk 7 4
+bk 7 5
+nk 7 6
+rk 7 7
+
+# Pawns
+p0 6 0
+p1 6 1
+p2 6 2
+p3 6 3
+p4 6 4
+p5 6 5
+p6 6 6
+p7 6 7
+
+# __ __ __ __ __ __ __ __
+# __ __ __ __ __ __ __ __
+# __ __ __ __ __ __ __ __
+# __ __ __ __ __ __ __ __
+# __ __ __ __ __ __ __ __
+# __ __ __ __ __ __ __ __
+# p0 p1 p2 p3 p4 p5 p6 p7
+# rq nq bq qq kk bk nk rk
+
